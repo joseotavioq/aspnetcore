@@ -1,6 +1,8 @@
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
-namespace WebAPIApplication
+namespace WebAPIApplication.Controllers
 {
     [Route("api/[controller]")]
     public class PessoasController : Controller
