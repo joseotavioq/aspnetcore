@@ -37,8 +37,10 @@ namespace UnitTest
 
         private void SetupDatabase()
         {
+            try{
             TestDataContext.Database.EnsureCreated();
             TestDataContext.Database.Migrate();
+            }catch(Exception){}
         }
         public void Dispose()
         {
