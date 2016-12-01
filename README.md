@@ -24,7 +24,7 @@ Para criar o primeiro pacote do migration, execute o comando abaixo:
 `dotnet ef migrations add MigracaoInicial`
 
 ## Docker - Container SqlServer no Linux
-[Docker para o MacOS](https://www.docker.com/products/docker#/mac)
+[Docker](https://www.docker.com/products/docker)
 
 Para subir a imagem do container SqlServer (linux), execute o comando abaixo:
 

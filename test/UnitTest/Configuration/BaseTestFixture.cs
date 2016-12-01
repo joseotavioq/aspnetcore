@@ -40,12 +40,11 @@ namespace UnitTest
             TestDataContext.Database.EnsureCreated();
             TestDataContext.Database.Migrate();
         }
-
         public void Dispose()
         {
             TestDataContext.Dispose();
-            Server.Dispose();
             Client.Dispose();
+            Server.Dispose();
         }
     }
 }
