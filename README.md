@@ -1,10 +1,9 @@
-# Exemplo de .NET Core 1.1 (ASP.NET Web API) com EFCore (SqlServer) rodando no Linux
+# Workshop: Exemplo de Aplicação ASP.NET Core 1.1 (Web API) com EFCore acessando SqlServer rodando no Linux
 
-#.NET Core e Node.js
+##.NET Core e Node.js
 [Instale o Node.js](https://nodejs.org/en/)
 
 [Instale o .NET Core](http://www.dot.net)
-
 
 ##Yoeman
 Para instalar o Yoeman e o Scaffolding do ASP.NET Core (o bower é requerido pelo Scaffolding), utilize o NPM, através dos seguintes comandos:
@@ -16,7 +15,9 @@ Para instalar o Yoeman e o Scaffolding do ASP.NET Core (o bower é requerido pel
 `npm i -g generator-aspnet`
 
 
-Para criar o projeto do zero, você pode utilizar agora o comando `yo dotnet` e seguir as instruções informadas no terminal.
+Para criar o projeto do zero, você pode utilizar o comando `yo` e seguir as instruções informadas no terminal.
+
+Neste exemplo utilizamos os projetos: `Web API Application` e `Unit test project (xUnit.net)`
 
 ## Migrations
 Para criar o primeiro pacote do migration, execute o comando abaixo:
@@ -37,3 +38,6 @@ Para subir a imagem do container SqlServer (linux), execute o comando abaixo:
 - C#
 - C# Extensions
 - vscode-icons
+
+##CircleCI
+Integração contínua com [CircleCI](http://circleci.com)
