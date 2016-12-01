@@ -15,7 +15,7 @@ namespace UnitTest
         }
 
         [Fact]
-        public async Task DeveRetornarListaDePessoasVazia()
+        public async Task Deve_Retornar_Lista_De_Pessoas_Vazia()
         {
             var response = await Client.GetAsync(BASE_URL);
             response.EnsureSuccessStatusCode();
@@ -27,7 +27,7 @@ namespace UnitTest
         }
 
         [Fact]
-        public async Task DeveRetornarListaDePessoas()
+        public async Task Deve_Retornar_Lista_De_Pessoas_Com_Um_Item()
         {
             var pessoa = new Pessoa { Nome = "Teste", Twitter = "@teste" };
             await TestDataContext.AddAsync(pessoa);
