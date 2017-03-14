@@ -1,11 +1,11 @@
 # Workshop: Exemplo de Aplicação ASP.NET Core 1.1 (Web API) com EFCore acessando SqlServer rodando no Linux
 
-##.NET Core e Node.js
+## .NET Core e Node.js
 [Instale o Node.js](https://nodejs.org/en/)
 
 [Instale o .NET Core](http://www.dot.net)
 
-##Yoeman
+## Yoeman
 Para instalar o Yoeman e o Scaffolding do ASP.NET Core (o bower é requerido pelo Scaffolding), utilize o NPM, através dos seguintes comandos:
 
 `npm i -g bower`
