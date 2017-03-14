@@ -39,5 +39,5 @@ Para subir a imagem do container SqlServer (linux), execute o comando abaixo:
 - C# Extensions
 - vscode-icons
 
-##CircleCI
+## CircleCI
 Integração contínua com [CircleCI](http://circleci.com)
